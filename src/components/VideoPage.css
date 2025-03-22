@@ -1,0 +1,453 @@
+*{
+    scrollbar-width: none;
+
+}
+.videoPage{
+    
+    display: flex;
+    /* justify-content: end; */
+    width: 100vw;
+    padding: 70px 0;
+    height: 100vh;
+    
+    /* flex-direction: column;
+    align-items: center;
+    margin-top: 20px; */
+}
+
+.vp-extra{
+    width: 72%;
+    /* margin: 10px 0 0 20px; */
+}
+
+.pageContainer{
+    width: 70%;
+    height: 90vh;
+    margin:0 2vw;
+    padding: 2vw;
+    position: fixed;
+
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #222 #000;
+
+}
+
+.videoContainer iframe{
+    width: 64vw;
+    height: 36vw;
+    border-radius: 15px;
+    border: none;
+}
+
+.videoTitle h3{
+    font-size: 19px;
+}
+
+
+.channelDiv{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+
+}
+
+.channelInfo{
+    width: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+.channelPic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    /* border: 2px solid black; */
+}
+
+.channelName{
+    height: auto;
+    /* width: 50%; */
+    /* display: flex;
+    flex-direction: column; */
+
+    
+}
+
+.channelName h4{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.channelName p{
+
+    font-size: 12px;
+    color: #999;
+    margin: 0px;
+    padding: 5px 0;
+   
+}
+
+.subscribe{
+    height: 34px;
+    font-size: 15px;
+    /* font-weight: 500; */
+    text-align: center;
+    margin:0 20px;
+    padding:0px 15px;
+    color: black;
+    background-color: #ddd;
+    border: 1px solid gray;
+    border-radius: 17px;
+
+}
+
+.reaction{  
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+
+} 
+
+.reaction h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reaction div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent; 
+}
+
+.reaction>div{
+    /* border:1px solid gray; */
+    margin: 1vw;
+    background-color: #252525;
+
+
+}
+
+.likeDislike{
+    /* border: 2px solid gray; */
+    height: 34px;
+    width: 140px;
+    border-radius: 17px;
+    padding: 0 10px;
+    padding: 0 15px;
+
+}
+
+.like{
+    height: 32px;
+    border-radius: 10px;
+    padding: 0 4px;
+
+}
+
+.like h4{
+    padding: 0 3px;
+}
+
+.dislike{
+    border-left: 2px solid gray;
+    padding:1px 6px;
+}
+
+.share, .download{
+    /* border: 2px solid gray; */
+    height: 34px;
+    width: 110px;
+    border-radius: 17px;
+    padding: 0 15px;
+
+}
+
+.download img{
+    opacity: 0.6;
+}
+
+.more{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg); */
+    /* border: 2px solid gray; */
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    padding-left: 7px;
+    
+}
+
+.description{
+    width: 100%;
+    max-height:200px ;
+    padding: 13px 15px;
+    margin: 10px 0;
+    font-size: 15px;
+
+    font-weight: 200;
+    
+    border-radius: 15px;
+
+    background-color: #252525;
+    
+    overflow-y: hidden;
+}
+
+.description p{
+    margin: 1px;
+}
+
+
+.comments{
+    height: auto;
+    width: 100%;
+}
+
+.addComment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.addComment img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin: 10px ;
+
+}
+
+.addComment div{
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+
+.addComment p{
+    margin: 0px;
+    color: #aaa;
+}
+.addComment hr{
+    width: 100%;
+}
+
+.comment{
+    display: flex;
+    /* align-items: center; */
+    margin: 10px 0;
+}
+
+.comment img{
+    width: 20px;
+    height: 20px;
+}
+
+.likedis{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.likedis p{
+    font-size: 13px;
+    /* margin: 30px; */
+    padding-right: 15px;
+    color: #aaa;
+}
+
+.comment>img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.comment h5{
+    margin: 0px 10px;
+}
+
+.comment p{
+    margin: 5px 10px;
+}
+
+.comment span{
+    font-size: 12px;
+    font-weight: 200;
+    color: #999;
+    margin: 0 5px;
+}
+
+.loadMore{
+    margin-left: 20px;
+}
+
+
+/* feedbar */
+
+.vp-feeds{
+    width: 25%;
+    height: 100vh;
+    margin: 10px;
+    /* padding: 10px 0; */
+    
+}
+
+.vp-feeds-extra{
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #000;
+
+}
+
+.vp-feed{
+    text-decoration: none;
+    display: flex;
+    height: 6.1vw;
+    margin: 2px;
+}
+
+.vp-feed:hover{
+    background-color: #151515;
+}
+
+.vp-feed img{
+    /* width: 100%; */
+    height: 90%;
+    border-radius: 5px;
+}
+
+.vp-title{
+    display: flex;
+    /* align-items: center; */
+    /* font-size: 10px; */
+    
+    padding: 10px 0;
+}
+
+.vp-info, .vp-info h3{
+    width: 100%;
+    font-weight: 500;
+    margin: -5px 0 5px 0;
+    font-size: 0.9vw;
+    padding: 0px 5px;
+}
+
+.vp-info p{
+    padding:0 5px;
+    margin:0;
+    font-size: 0.8vw;
+    color: #999;
+    
+} 
+
+
+@media (((max-width: 1200px) and (min-width: 900px)) or ((max-width: 800px) and (min-width: 600px))) {
+    .download h4{
+        display: none;
+         }
+
+    .download{
+        width: 34px;
+        overflow: hidden;
+        padding: 0 7px;
+
+    }
+
+}
+
+
+@media (((max-width: 1100px) and (min-width: 900px)) or ((max-width: 750px) and (min-width: 600px))) {
+    .share h4{
+        display: none;
+         }
+
+    .share{
+        width: 34px;
+        overflow: hidden;
+        padding: 0 7px;
+
+    }
+
+}
+
+
+@media ((max-width: 1000px) and (min-width: 900px)) or ((max-width: 700px) and (min-width: 600px)) {
+    .like h4{
+        display: none;
+         }
+
+    .likeDislike{
+        width: 84px;
+        overflow: hidden;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+    .vp-feeds{
+        display: none;
+         }
+
+    .videoContainer iframe{
+        width: 98%;
+        height: 56vw;
+    }
+
+    .pageContainer{
+        width: 100vw;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .channelDiv{
+        /* flex-direction: column;
+         
+        */
+        display:block;
+    }
+
+    .channelInfo{
+        margin-bottom: 20px;
+    }
+
+    .reaction{
+        width: 440px;
+    }
+
+    .reaction>div{
+        /* background-color: #222; */
+        /* border: 1px solid #555; */
+        justify-content: space-around;
+    }
+
+    .description{
+        margin-top: 90px;
+    }
+
+    .more{
+        padding: 0 5px;
+    }
+}
+
+
+

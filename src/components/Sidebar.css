@@ -1,0 +1,57 @@
+.sidebar{
+    background-color: #0e0e0e;
+    width: 200px;
+    padding:90px 5px;
+    position: fixed;
+    height: 100vh;
+    /* margin-top: 80px; */
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.sidebar div{
+    /* background-color: #9cfd7c; */
+    height: 40px;
+    /* margin: 5px; */
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.sidebar div:hover{
+    background-color: #222;
+}
+
+.sidebar img{
+    height: 25px;
+}
+
+.sidebar p{
+    font-size: 17px;
+    margin: 0 20px;
+}
+
+.active p, .active h4{
+    display: none;
+}
+
+.active{
+    width: 45px;
+}
+
+.activeCate{
+    background-color: #222;
+}
+
+hr{
+    
+    border:1px solid rgb(63, 63, 63);
+    width: 100%;
+}
+
+.watch img{
+    border-radius: 50%;
+}
