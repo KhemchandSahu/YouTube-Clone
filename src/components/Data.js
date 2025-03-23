@@ -1,4 +1,8 @@
-export const API_KEY = 'AIzaSyAntoo1FMfShiVZYJdQiEC8DmanzO8Dz_0';
+
+
+
+export const API_KEY = import.meta.env.VITE_API_KEY;
+
 
 export const numToWords=(num)=>{
     if(num>=1000000000) return (Math.floor(num/1000000000)+'B');
